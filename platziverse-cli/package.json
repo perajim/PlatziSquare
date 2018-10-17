@@ -1,0 +1,28 @@
+{
+  "name": "platziverse-cli",
+  "version": "1.0.0",
+  "private": true,
+  "description": "a simple IOT Platform - CLI",
+  "bin": "platziverse.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/perajim/platziverse.git"
+  },
+  "author": "perajim <perajim@gmail.com> (https://facebook.com/perajim)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perajim/platziverse/issues"
+  },
+  "homepage": "https://github.com/perajim/platziverse#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.5",
+    "platziverse-agent":"file:../platziverse-agent"
+  } 
+}

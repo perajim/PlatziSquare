@@ -1,0 +1,32 @@
+{
+  "name": "platziverse-mqtt",
+  "version": "1.0.0",
+  "description": "A Simple IOT Platform  MQQT - Server",
+  "main": "server.js",
+  "scripts": {
+    "lint": "standard",
+    "start-dev": "DEBUG=platziverse:* nodemon server.js",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/perajim/platziverse.git"
+  },
+  "author": "perajim <perajim@gmail.com> (https://facebook.com/perajim)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perajim/platziverse/issues"
+  },
+  "homepage": "https://github.com/perajim/platziverse#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "debug": "^3.1.0",
+    "mosca": "^2.8.3",
+    "platziverse-db": "file:../platziverse-db",
+    "redis": "^2.8.0"
+  }
+}
